@@ -1,0 +1,24 @@
+{
+  "name": "team-performance-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && PORT=5001 npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "concurrently": "^8.2.2",
+    "typescript": "~5.9.2"
+  },
+  "dependencies": {
+    "expo": "^54.0.18",
+    "firebase-admin": "^13.5.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

@@ -1,0 +1,31 @@
+# Database
+DATABASE_URL="postgresql://username:password@localhost:5432/team_dashboard"
+REDIS_URL="redis://localhost:6379"
+
+# JWT
+JWT_SECRET="your-super-secret-jwt-key"
+
+# Frontend URL
+FRONTEND_URL="http://localhost:3000"
+
+# Jira Configuration
+JIRA_HOST="https://yourcompany.atlassian.net"
+JIRA_EMAIL="your-email@company.com"
+JIRA_TOKEN="your-jira-api-token"
+
+# GitHub Configuration
+GITHUB_TOKEN="ghp_your-github-personal-access-token"
+GITHUB_OWNER="your-github-username-or-org"
+GITHUB_REPO="your-main-repository"
+
+# SonarQube Configuration
+SONARQUBE_URL="https://sonarcloud.io"
+SONARQUBE_TOKEN="your-sonarqube-token"
+SONARQUBE_PROJECT="your-project-key"
+
+# Snyk Configuration
+SNYK_TOKEN="your-snyk-api-token"
+SNYK_ORG_ID="your-snyk-organization-id"
+
+# Slack Configuration
+SLACK_TOKEN="xoxb-your-slack-bot-token"

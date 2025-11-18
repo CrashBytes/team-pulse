@@ -1,0 +1,17 @@
+.sprintDropdown {
+  padding: 10px 12px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 15px;
+  min-width: 420px;
+  background: white;
+  cursor: pointer;
+  line-height: 1.6;
+  font-family: 'Fira Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+}
+.sprintOption {
+  padding: 8px 6px;
+  border-bottom: 1px solid #f3f4f6;
+  white-space: pre-line;
+  font-size: 15px;
+}

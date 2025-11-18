@@ -1,0 +1,31 @@
+{
+  "projects": {
+    "PROJECT_ID_1": {
+      "name": "mobile-app",
+      "category": "mobile",
+      "display": "Mobile App"
+    },
+    "PROJECT_ID_2": {
+      "name": "web-frontend",
+      "category": "web",
+      "display": "Web Frontend"
+    },
+    "PROJECT_ID_3": {
+      "name": "another-mobile-app",
+      "category": "mobile",
+      "display": "Another Mobile App"
+    }
+  },
+  "boards": {
+    "BOARD_ID_1": {
+      "name": "Mobile Sprint Board",
+      "projects": ["PROJECT_ID_1", "PROJECT_ID_3"],
+      "category": "mobile"
+    },
+    "BOARD_ID_2": {
+      "name": "Web Sprint Board",
+      "projects": ["PROJECT_ID_2"],
+      "category": "web"
+    }
+  }
+}
