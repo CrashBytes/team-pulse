@@ -63,8 +63,8 @@ A comprehensive dashboard for visualizing team performance metrics from GitLab, 
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd medashboard
+git clone https://github.com/CrashBytes/team-pulse.git
+cd team-pulse
 
 # Run the installation script
 chmod +x install.sh
