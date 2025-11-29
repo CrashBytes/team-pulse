@@ -12,8 +12,8 @@ pnpm-debug.log*
 .env.test.local
 .env.production.local
 
-# Project tracking (not to be committed)
-CHANGELOG.md
+# Configuration files with sensitive data
+config.json
 
 # Test and debug files (often contain company-specific data)
 backend/test-*.js
