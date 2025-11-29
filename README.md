@@ -1,6 +1,22 @@
-# Team Performance Dashboard
+# Team Pulse
+
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/CrashBytes/team-pulse/releases)
+[![Production Ready](https://img.shields.io/badge/production-ready-brightgreen.svg)](PRODUCTION-CHECKLIST.md)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Node](https://img.shields.io/badge/node-%3E%3D16.x-brightgreen.svg)](https://nodejs.org)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![CI](https://github.com/CrashBytes/team-pulse/workflows/CI/badge.svg)](https://github.com/CrashBytes/team-pulse/actions)
 
 A comprehensive dashboard for visualizing team performance metrics from GitLab, Jira, and optionally Firebase. Built to help engineering teams track velocity, code quality, and individual contributions.
+
+## 📚 Documentation
+
+- [Installation Guide](#quick-start)
+- [Production Deployment](PRODUCTION.md)
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [Security Policy](SECURITY.md)
+- [Changelog](CHANGELOG.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ## Features
 
