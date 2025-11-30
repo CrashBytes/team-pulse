@@ -9,7 +9,7 @@
 
 A comprehensive dashboard for visualizing team performance metrics from GitLab, Jira, and optionally Firebase. Built to help engineering teams track velocity, code quality, and individual contributions.
 
-## 📚 Documentation
+## Documentation
 
 - [Installation Guide](#quick-start)
 - [Production Deployment](PRODUCTION.md)
@@ -404,4 +404,4 @@ For issues and questions:
 
 ---
 
-**Made with ❤️ for engineering teams**
+**Built with engineering excellence by [CrashBytes](https://crashbytes.com)**

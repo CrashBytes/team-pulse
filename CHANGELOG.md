@@ -59,6 +59,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **Documentation** - Removed all emoji usage from documentation and scripts (2024-11-30)
+- **Branding** - Added backlinks to crashbytes.com in README, SECURITY, and CONTRIBUTING (2024-11-30)
+
 ### Planned
 - GitHub integration support
 - Azure DevOps integration

@@ -4,10 +4,10 @@
 
 We release patches for security vulnerabilities for the following versions:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
-| < 1.0   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| 1.0.x   | Yes       |
+| < 1.0   | No        |
 
 ## Reporting a Vulnerability
 
@@ -239,3 +239,7 @@ For general questions: Open a GitHub issue
 ---
 
 **Security is a shared responsibility. Thank you for helping keep Team Pulse safe!**
+
+---
+
+*Built with security-first principles by [CrashBytes](https://crashbytes.com)*

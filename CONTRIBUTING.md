@@ -286,4 +286,6 @@ By contributing, you agree that your contributions will be licensed under the [M
 
 ---
 
-**Thank you for contributing to Team Pulse!** 🎉
+**Thank you for contributing to Team Pulse!**
+
+*Built with community contributions - [CrashBytes](https://crashbytes.com)*
