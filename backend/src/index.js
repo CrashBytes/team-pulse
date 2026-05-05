@@ -1,33 +1,19 @@
 const express = require("express");
 const cors = require("cors");
-const dotenv = require("dotenv");
+const { env } = require("./env");
 const axios = require("axios");
 const path = require("path");
 const fs = require("fs");
 
-// Load .env from backend directory
-dotenv.config({ path: path.join(__dirname, "../.env") });
-
 const app = express();
-const PORT = process.env.PORT || 5001;
+const PORT = env.PORT;
 
-const JIRA_HOST = process.env.JIRA_HOST;
-const JIRA_EMAIL = process.env.JIRA_EMAIL;
-const JIRA_TOKEN = process.env.JIRA_TOKEN;
+const JIRA_HOST = env.JIRA_HOST;
+const JIRA_EMAIL = env.JIRA_EMAIL;
+const JIRA_TOKEN = env.JIRA_TOKEN;
 
-const GITLAB_URL = process.env.GITLAB_URL;
-const GITLAB_TOKEN = process.env.GITLAB_TOKEN;
-
-// Validate required configuration
-if (!JIRA_HOST || !JIRA_EMAIL || !JIRA_TOKEN) {
-  console.error("ERROR: Missing required Jira configuration. Please check your .env file.");
-  console.error("Required: JIRA_HOST, JIRA_EMAIL, JIRA_TOKEN");
-}
-
-if (!GITLAB_URL || !GITLAB_TOKEN) {
-  console.error("ERROR: Missing required GitLab configuration. Please check your .env file.");
-  console.error("Required: GITLAB_URL, GITLAB_TOKEN");
-}
+const GITLAB_URL = env.GITLAB_URL;
+const GITLAB_TOKEN = env.GITLAB_TOKEN;
 
 const jiraHeaders = {
   Authorization: `Basic ${Buffer.from(`${JIRA_EMAIL}:${JIRA_TOKEN}`).toString(
