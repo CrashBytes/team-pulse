@@ -11,14 +11,14 @@
   },
   "devDependencies": {
     "@types/react": "~19.2.18",
-    "concurrently": "^10.0.4",
+    "concurrently": "^10.0.5",
     "typescript": "~7.0.2"
   },
   "dependencies": {
-    "expo": "^57.0.9",
+    "expo": "^57.0.13",
     "firebase-admin": "^14.2.0",
     "react": "19.2.8",
-    "react-native": "0.86.2"
+    "react-native": "0.87.0"
   },
   "overrides": {
     "jws@^3.2.2": "^3.2.3",
