@@ -10,14 +10,14 @@
     "ios": "expo run:ios"
   },
   "devDependencies": {
-    "@types/react": "~19.2.18",
+    "@types/react": "~19.3.0",
     "concurrently": "^10.0.5",
     "typescript": "~7.0.2"
   },
   "dependencies": {
-    "expo": "^57.0.18",
-    "firebase-admin": "^14.3.0",
-    "react": "19.2.8",
+    "expo": "^57.0.22",
+    "firebase-admin": "^14.4.0",
+    "react": "19.3.0",
     "react-native": "0.87.1"
   },
   "overrides": {
