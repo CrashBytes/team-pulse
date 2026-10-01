@@ -15,8 +15,8 @@
     "typescript": "~7.0.2"
   },
   "dependencies": {
-    "expo": "^57.0.22",
-    "firebase-admin": "^14.4.0",
+    "expo": "^57.0.26",
+    "firebase-admin": "^14.5.0",
     "react": "19.3.0",
     "react-native": "0.87.1"
   },
